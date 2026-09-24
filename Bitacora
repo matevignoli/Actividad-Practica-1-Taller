@@ -1,0 +1,5 @@
+- CON RESPECTO A LA CONSIGNA 1:
+  > A la hora de seleccionar los valores de completitud tuve en cuenta que si una de las futuras consignas podian pedir valores
+    variados para pasar por algun filtro y aproveche las variables en las que tal vez se completarian menos
+  > Tambien a lo hora de elegir la estructura de almacenamiento, en un principio habia pensado en una tupla para las columnas, pero
+    teniendo en cuenta la rubrica tambien pense en una estructura que sea extenisble y me decidi por un diccionario
