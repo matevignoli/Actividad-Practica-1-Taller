@@ -1,9 +1,24 @@
 - CON RESPECTO A LA CONSIGNA 1:
   > A la hora de seleccionar los valores de completitud tuve en cuenta que si una de las futuras consignas podian pedir valores
-    variados para pasar por algun filtro y aproveche las variables en las que tal vez se completarian menos
+    variados para pasar por algun filtro y aproveche las variables en las que tal vez se completarian menos, en un principio pense en asignarles
+    valores generados de manera random pero podia llegar a darse la situacion en la que no haya algun porcentaje que busque
   > Tambien a lo hora de elegir la estructura de almacenamiento, en un principio habia pensado en una tupla para las columnas, pero
-    teniendo en cuenta la rubrica tambien pense en una estructura que sea extenisble y me decidi por un diccionario
+    teniendo en cuenta la rubrica, tambien pense en una estructura que sea extenisble y me decidi por un diccionario
 - CON RESPECTO A LA CONSIGNA 2:
   > Para la estructura de la consigna 2 pense primero en almacenar los roles en un diccionario como claves y la informacion necesaria
     en otro diccionario dentro de este pensando en el caso de que tenga que agregar algun nuevo atributo y luego tambien una lista la cual 
     represente las columnas, para que estas puedan estar ordenadas y tambien puedan ser recorridas secuencialmente
+- CON RESPECTO A LA CONSIGNA 3:
+  > Para el uso de la funcion pense en asignarle un valor fijo a uno de sus parametros con el objetico de que cuando se utilice la funcion
+    y no se envie ningun rol pueda seguir con su funcion y devolver todas las columnas ordenadas
+  > Lo que me resulto mas dificil y con lo que mas errores tuve a la hora de hacer esta parte de la entrega fue con el funcionamiento de algunos
+    comandos como el key para definir un criterio de ordenamiento
+  > para verificar el correcto funcionamiento tambien de la funcion fui invocandola el final del programa viendo haber que valores me daba o si
+    se ejecutaba correctamente
+
+
+- PARTE APARTE DE BITACORA:
+  > ¿Qué parámetros se pueden definir con valores por defecto?: Los parametros que en el programa defini por defecto fueron los porcentajes de completitud,
+    tambien el de definicion de rol por el caso de que no se elija ninguno tenga un valor predefinido
+  > Si agregás una nueva columna al dataset, ¿en qué partes del código impacta? ¿Y si solo se quiere que un rol existente incluya esa nueva columna?: Si
+    agrego una columna nueva impactaria en la parte de la creacion del diccionario de las columnas, agregando una nueva clave-valor
