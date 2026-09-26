@@ -15,7 +15,8 @@
     comandos como el key para definir un criterio de ordenamiento
   > para verificar el correcto funcionamiento tambien de la funcion fui invocandola el final del programa viendo haber que valores me daba o si
     se ejecutaba correctamente
-
+  > En un pricipio en lugar del filter habia pensada en un for que me devuelva una lista, pero teniendo en cuenta los criterios de la actividad y la
+    mejora que podia generar el uso del lamba, junto con las clases pude ayudarme y usar el filter de la manera que crei correcta
 
 - PARTE APARTE DE BITACORA:
   > ¿Qué parámetros se pueden definir con valores por defecto?: Los parametros que en el programa defini por defecto fueron los porcentajes de completitud,
