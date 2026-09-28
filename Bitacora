@@ -15,10 +15,19 @@
     comandos como el key para definir un criterio de ordenamiento
   > para verificar el correcto funcionamiento tambien de la funcion fui invocandola el final del programa viendo haber que valores me daba o si
     se ejecutaba correctamente
-
+  > En un pricipio en lugar del filter habia pensada en un for que me devuelva una lista, pero teniendo en cuenta los criterios de la actividad y la
+    mejora que podia generar el uso del lamba, junto con las clases pude ayudarme y usar el filter de la manera que crei correcta
 
 - PARTE APARTE DE BITACORA:
   > ¿Qué parámetros se pueden definir con valores por defecto?: Los parametros que en el programa defini por defecto fueron los porcentajes de completitud,
     tambien el de definicion de rol por el caso de que no se elija ninguno tenga un valor predefinido
   > Si agregás una nueva columna al dataset, ¿en qué partes del código impacta? ¿Y si solo se quiere que un rol existente incluya esa nueva columna?: Si
     agrego una columna nueva impactaria en la parte de la creacion del diccionario de las columnas, agregando una nueva clave-valor
+
+- BITACORA DE LAS MODIFICACIONES:
+  > Para la modificacion 1 agregue el nuevo rol con todos los parametros ya que la modificaion no aclaraba cuales pedian y asignandole el orden b para que 
+    sea descendiente
+  > Para la modificacion 2 cambie el tipo de la variable MAS_500 el cual a primera vista pense que me iba a modificar el codigo pero luego me percate que no,
+    ya que era un valor que en si no era tenido en cuenta
+  > Con respecto a la modificacion 3 no tuve que hacer ningun cambio con respecto al uso del map o del filter ya que a la hora de hacer el trabajo tuve en cuenta
+    la rubrica, en la cual valoraban el uso de estos
