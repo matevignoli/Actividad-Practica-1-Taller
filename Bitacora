@@ -23,3 +23,11 @@
     tambien el de definicion de rol por el caso de que no se elija ninguno tenga un valor predefinido
   > Si agregás una nueva columna al dataset, ¿en qué partes del código impacta? ¿Y si solo se quiere que un rol existente incluya esa nueva columna?: Si
     agrego una columna nueva impactaria en la parte de la creacion del diccionario de las columnas, agregando una nueva clave-valor
+
+- BITACORA DE LAS MODIFICACIONES:
+  > Para la modificacion 1 agregue el nuevo rol con todos los parametros ya que la modificaion no aclaraba cuales pedian y asignandole el orden b para que 
+    sea descendiente
+  > Para la modificacion 2 cambie el tipo de la variable MAS_500 el cual a primera vista pense que me iba a modificar el codigo pero luego me percate que no,
+    ya que era un valor que en si no era tenido en cuenta
+  > Con respecto a la modificacion 3 no tuve que hacer ningun cambio con respecto al uso del map o del filter ya que a la hora de hacer el trabajo tuve en cuenta
+    la rubrica, en la cual valoraban el uso de estos
